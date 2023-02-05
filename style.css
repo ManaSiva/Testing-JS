@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  
+}
+.container{
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+  position: absolute;
+  right: 300px;
+  padding: 100px 0px 30px 40px; /* top, right, bottom, left */
+}
+#number{
+  border: 2px solid#2b2a33;
+  margin: 23px;
+  border-right-color: red;
+    border-left-color: red;
+
+}
